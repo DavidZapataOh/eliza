@@ -1,7 +1,7 @@
 {
     "name": "trump",
-    "clients": [],
-    "modelProvider": "openai",
+    "clients": ["telegram"],
+    "modelProvider": "grok",
     "settings": {
         "secrets": {},
         "voice": {
