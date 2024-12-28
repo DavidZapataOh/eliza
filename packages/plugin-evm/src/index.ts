@@ -8,6 +8,8 @@ import type { Plugin } from "@ai16z/eliza";
 import { bridgeAction } from "./actions/bridge";
 import { swapAction } from "./actions/swap";
 import { transferAction } from "./actions/transfer";
+import { balanceOfAction } from "./actions/balanceOf";
+import { mintAction } from "./actions/mint";
 import { evmWalletProvider } from "./providers/wallet";
 
 export const evmPlugin: Plugin = {
@@ -16,7 +18,13 @@ export const evmPlugin: Plugin = {
     providers: [evmWalletProvider],
     evaluators: [],
     services: [],
-    actions: [transferAction, bridgeAction, swapAction],
+    actions: [
+        transferAction,
+        bridgeAction,
+        swapAction,
+        balanceOfAction,
+        mintAction,
+    ],
 };
 
 export default evmPlugin;
