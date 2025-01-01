@@ -1,7 +1,7 @@
 {
     "name": "vitalik",
     "clients": ["telegram"],
-    "modelProvider": "grok",
+    "modelProvider": "gpt-4o",
     "settings": {
         "secrets": {},
         "voice": {
