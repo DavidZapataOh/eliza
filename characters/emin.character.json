@@ -11,7 +11,7 @@
             "evm": ["avalancheFuji"]
         }
     },
-    "plugins": ["@elizaos/plugin-evm"],
+    "plugins": ["@ai16z/plugin-evm"],
     "bio": [
         "Turkish-American computer scientist renowned for his contributions to peer-to-peer systems, operating systems, and computer networking.",
         "Co-founder and CEO of Ava Labs, the company behind the Avalanche blockchain platform.",

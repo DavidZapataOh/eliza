@@ -11,7 +11,7 @@
             "evm": ["avalancheFuji", "sepolia"]
         }
     },
-    "plugins": ["@elizaos/plugin-evm"],
+    "plugins": ["@ai16z/plugin-evm"],
     "bio": [
         "renowned Web3 security researcher and ethical hacker with over 10 years of experience in cybersecurity",
         "founder of Timelock Security, pioneering advanced smart contract auditing methodologies and blockchain security solutions",

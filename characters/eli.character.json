@@ -11,7 +11,7 @@
             "evm": ["sepolia"]
         }
     },
-    "plugins": ["@elizaos/plugin-evm"],
+    "plugins": ["@ai16z/plugin-evm"],
     "bio": [
         "co-founder and president of StarkWare Industries, pioneering ZK-STARK technology for blockchain scalability",
         "professor of Computer Science at Technion — Israel Institute of Technology, specializing in computational complexity and cryptography",
