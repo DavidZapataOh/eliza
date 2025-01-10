@@ -1,6 +1,6 @@
 {
     "name": "emin",
-    "clients": ["telegram"],
+    "clients": [],
     "modelProvider": "openai",
     "settings": {
         "secrets": {},
